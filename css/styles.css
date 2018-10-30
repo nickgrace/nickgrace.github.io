@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  background: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+a:link,
+a:visited {
+  color: #539fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4f64ef;
+}
+
+a:focus {
+  outline: none;
+  border: 1px dotted red;
+}
+
+img {
+  max-width: 100%;
+}
+
+article h1 {
+  font-size: 2rem;
+}
+
+article h2 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.wrapper {}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 40px;
+}
+
+.container-portfolio {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 0 40px;
+}
+
+.screenshot {
+  float: left;
+  margin-right: 20px;
+}
+
+header {
+  background: #fafafa;
+  border-bottom: 1px solid #E6EBEF;
+}
+
+.sitename {
+  font-size: 30px;
+  float: left;
+}
+
+.sitename a:link,
+.sitename a:visited {
+  color: rgb(31, 52, 78);
+  text-decoration: none;
+}
+
+.sitenav {
+  float: left;
+  margin-left: 50px;
+}
+
+.sitenav ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.sitenav li {
+  float: left;
+  font-size: .85em;
+}
+
+.sitenav li a {
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #6e6e6e;
+  text-decoration: none;
+  padding: 32px 16px 26px 16px;
+}
+
+.sitenav li a:link,
+.sitenav li a:visited {}
+
+.sitenav li a:hover {
+  color: #3d5473;
+}
+
+main {
+  margin-top: 30px;
+}
+
+.mission__photo {
+  float: left;
+  width: 190px;
+}
+
+.mission__statement {
+  float: left;
+  width: 70%;
+}
+
+.mission__statement > p {
+  margin-top: 0;
+}
+
+.avatar {
+  width: 170px;
+  height: auto;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+.hdr {
+  font-size: 1.6rem;
+}
+
+.portfolio_thumb {
+  width: 350px;
+  float: left;
+}
+
+.portfolio_summary {
+  margin-left: 20px;
+  margin-bottom: 40px;
+  float: left;
+  width: 510px;
+}
+
+.portfolio_summary h2 {
+  font-size: 1.4rem;
+  margin: 0 0 5px 0;
+}
+
+/* Footer */
+.social {
+  font-family: 'FontAwesome';
+}
+
+.social li {
+  display: inline;
+  font-size: .85em;
+}
+
+footer {
+  text-align: center;
+}
+
+footer h1 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+
+.social {
+  font-size: 2rem;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.social li {
+  margin: 0 10px;
+}
+
+.social a:link,
+.social a:visited {
+  color: black;
+}
+
+.social a:hover {
+  color: #3d5473;
+}
